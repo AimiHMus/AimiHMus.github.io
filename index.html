@@ -14,7 +14,6 @@
                 display: block;
                 margin: auto;
                 padding: 10px;
-                
             }
 
             .section__home {
@@ -42,7 +41,6 @@
             .button__enter:hover {
                 background-color: rgb(58, 72, 112);
                 color: rgb(215, 215, 250);
-                
             }
 
         </style>
@@ -73,11 +71,18 @@
                     <br> as a part of her individual assignment.
                 </p>
             </div>
+            <!-- Button to content, next page -->
             <div>
                 <a href="content.html">
-                    <button class="button__enter">ENTER!</button>
+                    <button class="button__enter" onclick="myFunction()">ENTER!</button>
                 </a>
+                <script> 
+                    function myFunction() {
+                        alert ("For the best experience and full features, please view this website on your laptop or desktop computer.");
+                    }
+                </script>
             </div>
+            <!-- end of button, end of main content -->
         </section>
 
         <footer>
