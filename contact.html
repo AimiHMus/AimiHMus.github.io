@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contacts</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <style>
+        .container__contact {
+            background-color: rgb(151, 133, 254);
+            width: 50%;
+            height: 300px;
+            margin: 40px auto;
+            padding: 25px 30px;
+            text-align: center;
+
+            border: none;
+            border-radius: 30px;
+        }
+
+        .container__contact ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 0px;
+            padding: 10px;
+            flex-wrap: wrap;
+            font-size: 20px;
+        }
+
+        .button__myinfo {
+            display: inline-block;
+            text-decoration: none;
+            background-color: blue;
+            width: 250px;
+            height: 80px;
+            padding: 10px;
+            margin: 0px;
+
+            border: 2px outset rgb(146, 146, 189);
+            border-radius: 5px;
+
+            text-align: center;
+            align-content: center;
+
+        }
+
+        .button__myinfo:link {
+            text-decoration: none;
+            background-color: #b8a7fe;
+        }
+
+        .button__myinfo:visited {
+            text-decoration: none;
+            background-color: #b8a7fe;
+        }
+
+        .button__myinfo:hover {
+            text-decoration: underline;
+            background-color: rgb(176, 85, 255);
+        }
+
+        .button__myinfo:active {
+            text-decoration: underline;
+            background-color: #b8a7fe;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+                <ul class="navbar__ul">
+                    <li><a href="index.html">HOMEPAGE</a></li>
+                    <li><a href="aboutme.html">ABOUT ME</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="skill.html">SKILLS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <div class="container__contact">
+            <h2>CONTACT ME!</h2>
+            <div class="contact__link">
+                <ul>
+                    <li><a href="https://wa.me/601156706940" class="button__myinfo">WhatsApp: 011-5670-6940</a></li>
+                    <li><a href="https://t.me/Aimi48" class="button__myinfo">Telegram: @Aimi48</a></li>
+                    <li><a href="https://www.instagram.com/aimi_.h?igsh=ZGk0OWw0N3hkeHlj" class="button__myinfo">Instagram: @aimi_.h</a></li>
+                    <li><a href="mailto:aimihmustafa@gmail.com" class="button__myinfo">Email: aimihmustafa@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only.
+    </footer>
+</body>
+</html>

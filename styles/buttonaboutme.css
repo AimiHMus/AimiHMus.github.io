@@ -1,0 +1,34 @@
+.button {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.button__myinfo {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0 10px 50px;
+  border: 2px outset rgb(146, 146, 189);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button__myinfo:link {
+  text-decoration: none;
+  background-color: #b8a7fe;
+}
+
+.button__myinfo:visited {
+  text-decoration: none;
+    background-color: #b8a7fe;
+}
+
+.button__myinfo:hover {
+  text-decoration: underline;
+  background-color: rgb(176, 85, 255);
+}
+
+.button__myinfo:active {
+  text-decoration: underline;
+  background-color: #b8a7fe;
+}

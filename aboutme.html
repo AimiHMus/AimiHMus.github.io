@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Aimi</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/buttonprevious.css">
+    <link rel="stylesheet" href="styles/buttonaboutme.css">
+
+    <style>
+        .aboutme__intro {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+        .section__aboutme {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 50px;
+        }
+
+        .container__myinfo, 
+        .container__myfamily, 
+        .container__mygoals, 
+        .container__myinterest, 
+        .container__quote {
+            background-color: #9787de;
+            color: black;
+            border: 2px outset rgb(146, 146, 189);
+            border-radius: 5px;
+            padding: 20px;
+            width: 30%;
+            min-height: 160px;
+            position: relative;
+        }
+
+        .button__aboutme {
+            display: flex;
+            background-color: #52487e;
+            color: #b9a9ff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AIMI'S PROFILE</h1>
+        <nav class="navbar">
+            <ul class="navbar__ul">
+                <li><a href="index.html">HOMEPAGE</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="skill.html">SKILLS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- content in the about me -->
+
+    <section>
+        <div class="aboutme__intro">
+            <h2>ABOUT ME</h2>
+            <p>Get to know me more here!</p>
+        </div>
+    </section>
+
+     
+    <section class="section__aboutme">
+        <!-- my biodata -->
+        <div class="container__myinfo">
+            <h3>My Biodata</h3>
+            <p>Let me introduce myself!</p>
+            <div class="button">
+                <a href="aboutme/myinfo.html" class="button__myinfo">Click Here!</a>
+            </div>
+        </div>
+
+        <!-- my family -->
+        <div class="container__myfamily">
+            <h3>My Family</h3>
+            <p>Introducing my family!</p>
+            <div class="button">
+                <a href="aboutme/myfam.html" class="button__myinfo">Click Here!</a>
+            </div>
+        </div>
+
+        <!-- my interest -->
+        <div class="container__myinterest">
+            <h3>My Interest</h3>
+            <p>Here is some of my favorite activities!</p>
+            <div class="button">
+                <a href="aboutme/interest.html" class="button__myinfo">Click Here!</a>
+            </div>
+        </div>
+        
+        <!-- my goals -->
+        <div class="container__mygoals">
+            <h3>My Personal Goals</h3>
+            <p>Several personal life goals!</p>
+            <div class="button">
+                <a href="aboutme/goals.html" class="button__myinfo">Click Here!</a>
+            </div>
+        </div>
+
+        <!-- quote of the day -->
+        <div class="container__quote">
+            <h3>Quote of the day</h3>
+            <p>My chosen life quote!</p>
+            <div class="button">
+                <a href="aboutme/quote.html" class="button__myinfo">Click Here!</a>
+            </div>
+        </div>
+    </section>  
+
+    <footer>
+        <p> &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only. <br>
+        </p>
+    </footer>
+</body>
+</html>

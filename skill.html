@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <style>
+        .skill__card {
+            background-color: rgb(198, 177, 255);
+            width: 50%;
+            margin: 10px auto 30px auto;
+            padding: 20px;
+            border: outset;
+            border-color: rgb(212, 174, 255);
+            border-radius: 10px;
+            
+        }
+
+        .skill__ {
+            background-color: rgb(171, 140, 208);
+            width: 90%;
+            min-height: 200px;
+            margin: 0px auto 20px auto;
+            border: outset;
+            border-color: rgb(198, 177, 255);
+            border-radius: 10px;
+            padding: 20px 20px;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .skill__ div {
+            flex: 1;
+        }
+
+        .skill__heading {
+            color: rgb(22, 16, 58);
+            display: flex;
+            margin: 30px auto 15px auto;
+            justify-content: center;
+        }
+
+        .skill__ img {
+            width: 150px;
+            height: 150px;
+            flex-shrink: 0;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .skill__ ul {
+            padding-left: 25px;
+        }
+        
+        .skill__ li {
+            padding: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .skill__ {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .skill__ ul {
+                text-align: left;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>AIMI'S PROFILE</h1>
+        <nav class="navbar">
+                <ul class="navbar__ul">
+                    <li><a href="index.html">HOMEPAGE</a></li>
+                    <li><a href="aboutme.html">ABOUT ME</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="skill.html">SKILLS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    </header>
+    <!-- main content -->
+    <section>
+        <div class="skill__heading">
+            <h2>SKILLS AND EXPERIENCE</h2>
+        </div>
+        <!-- different skills -->
+        <div class="skill__card">
+
+            <div class="skill__">
+                <img src="images/coding_1.jpg" alt="Laptop with coding open">
+                <div>
+                    <h3>Technical Skills</h3>
+                        <ul>
+                            <li>Basic HTML</li>
+                            <li>Basic CSS</li>
+                            <li>Microsoft Word</li>
+                            <li>Canva</li>
+                        </ul>
+
+                </div>
+            </div>
+
+            <div class="skill__">
+                <img src="images/degreelife_6.jpg" alt="">
+                <div>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Adaptability</li>
+                        <li>Problem Solving</li>
+                        <li>Communication</li>
+                        <li>Time Management</li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+            <div class="skill__">
+                <img src="images/mandarin_1.jpg" alt="">
+                <div>
+                    <h3>Languages</h3>
+                <ul>
+                    <li>Malay (native)</li>
+                    <li>Intermediate English</li>
+                    <li>Basic Mandarin</li>
+                </ul>
+                </div>
+                
+                
+            </div>
+
+            <div class="skill__">
+                <img src="images/foundationlife_1.jpg" alt="">
+                <div>
+                    <h3>Experiences</h3>
+                    <ul>
+                        <li>Developed a personal portfolio website</li>
+                        <li>Group assignments and presentation</li>
+                        <li>Information organizations</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end main content -->
+    <footer>
+            &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only.
+    </footer>
+</body>
+</html>

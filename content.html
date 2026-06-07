@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contents</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <style>
+        .section__content {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .text__heading {
+            color: rgb(44, 44, 95);
+        }
+
+        .table__items {
+            width: 50%;
+            border-radius: 10px;
+            border-collapse: collapse;
+            overflow: hidden;
+            align-items: center;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        
+        th,td {
+            padding: 10px 20px;
+            text-align: left;
+            border-bottom: 1px solid #ffffff;
+            font-size: 14px;
+
+        }
+
+        th {
+            background-color: rgb(67, 34, 98);
+            color: rgb(239, 234, 255);
+        }
+
+        tr {
+            background-color: #ffecfc;
+            color: rgb(33, 15, 70);
+        }
+
+        .button__items {
+            background-color: #ffecfc;
+            color: rgb(41, 38, 82);
+            border: none;
+            border-radius: 12px;
+            padding: 8px 15px;
+            margin: 10px 2px;
+            text-align: center;
+            display: inline-block;
+            font-size: 14px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button__items:hover {
+            background-color: rgb(94, 116, 177);
+            color: rgb(215, 215, 250);
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AIMI'S PROFILE</h1>
+    </header>
+
+    <section class="section__content">
+        <div class="text__heading">
+            <h2>MY CONTENT</h2>
+        </div>
+
+        <div class="content_table">
+            <table class="table__items">
+                <thead>
+                    <th>No.</th>
+                    <th>Content</th>
+                    <th>Link</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HOME</td>
+                        <td><button class="button__items"><a href="index.html">Click here</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ABOUT ME</td>
+                        <td><button class="button__items"><a href="aboutme.html">Click here</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>EDUCATION</td>
+                        <td><button class="button__items"><a href="education.html">Click here</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SKILLS</td>
+                        <td><button class="button__items"><a href="skill.html">Click here</a></button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>CONTACT</td>
+                        <td><button class="button__items"><a href="contact.html">Click here</a></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+            &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only.
+    </footer>
+</body>
+</html>

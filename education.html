@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+
+    <style>
+        .section__education {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .highschool,
+        .foundation,
+        .degree {
+            background-color: rgb(74, 74, 141);
+            color: rgb(10, 9, 41);
+            border-radius: 10px;
+            width: 400px;
+            overflow: hidden;
+            text-align: center;
+            min-height: 200px;
+        }
+
+        img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>AIMI'S PROFILE</h1>
+        <nav class="navbar">
+            <ul class="navbar__ul">
+                <li><a href="index.html">HOMEPAGE</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="skill.html">SKILLS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section__education">
+        <!-- section highschool -->
+        <div class="highschool">
+            <!-- clickable image -->
+            <a href="education/highschool.html">
+                <img src="images/smkbp_1.jpg" alt="SMK Bandar Putra">
+            </a>
+            <br>
+            <!-- text -->
+            <h3>My Highshool Life</h3>
+            <p>Sekolah Menengah Kebangsaan Bandar Putra,
+                <br>from 2019 until 2023
+            </p>
+            <br>
+
+        </div>
+        <!-- section foundation -->
+        <div class="foundation">
+            <!-- clickable image -->
+             <a href="education/foundation.html">
+                <img src="images/asasi_2.jpg" alt="UiTM Kampus Dengkil">
+             </a>
+            <br>
+            <!-- text -->
+            <h3>My Foundation Life</h3>
+            <p>Pusat Asasi, Universiti Teknologi MARA 
+                <br>Cawangan Selangor, Kampus Dengkil
+                <br>2024/2025
+            </p>
+            <br>
+        
+        </div>
+        <!-- section degree -->
+        <div class="degree">
+            <!-- clickable image -->
+             <a href="education/degree.html">
+                <img src="images/degree_1.jpg" alt="UiTM Kampus Rembau">
+             </a>
+            <br>
+            <!-- text -->
+            <h3>My Degree Life</h3>
+            <p>Universiti Teknologi MARA 
+                <br>Cawangan Negeri Sembilan, Kampus Rembau,
+                <br>since 2025
+            </p>
+            <br>
+
+        </div>
+        <!-- end container education -->
+    </section>
+
+    <footer>
+            &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only.
+    </footer>
+</body>
+</html>

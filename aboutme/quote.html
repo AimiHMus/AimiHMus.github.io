@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Quote</title>
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/buttonprevious.css">
+    
+    <style>
+        .container__quote {
+            background-color: rgb(105, 105, 213);
+            width: 50%;
+            height: 180px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content:baseline;
+            padding: 20px;
+            margin: 15px auto;
+            border: 3px solid rgb(38, 31, 90);
+            border-style: outset;
+            border-radius: 50px;
+            
+        }
+        
+        .quote__heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .custom__line {
+            font-size: 24px;
+            font-style: italic;
+            text-align: center;
+            position: relative;
+            padding: 20px 40px;
+        }
+
+        .custom__line::before {
+            content: "❝";
+            font-size: 60px;
+            position: absolute;
+            left: 0;
+            top: -10px;
+            color: #31285f;
+        }
+
+        .custom__line::after {
+            content: "❞";
+            font-size: 60px;
+            position: absolute;
+            right: 0;
+            bottom: -30px;
+            color: #31285f;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AIMI'S PROFILE</h1>
+        <nav class="navbar">
+            <ul class="navbar__ul">
+                <li><a href="../index.html">HOMEPAGE</a></li>
+                <li><a href="../aboutme.html">ABOUT ME</a></li>
+                <li><a href="../education.html">EDUCATION</a></li>
+                <li><a href="../skill.html">SKILLS</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- button to about me -->
+        <div class="button">
+            <a href="../aboutme.html" class="button__page">PREVIOUS PAGE</a>
+        </div>
+
+        <!-- life quote within container -->
+        <div class="container__quote">
+            <div>
+                <h2 class="quote__heading">MY LIFE QUOTE</h2>
+                <p>
+                    <span class="custom__line">Strive not to be a success, but rather to be of value.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only.
+    </footer>
+    
+</body>
+</html>

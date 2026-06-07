@@ -1,0 +1,33 @@
+.button {
+    margin: 0;
+    padding: 0;
+}
+
+.button__page {
+    display: inline-block;
+    padding: 10px;
+    margin: 25px 0 10px 50px;
+    border: 2px inset rgb(56, 56, 114);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button__page:link {
+  text-decoration: none;
+  background-color: #b8a7fe;
+}
+
+.button__page:visited {
+  text-decoration: none;
+    background-color: #b8a7fe;
+}
+
+.button__page:hover {
+  text-decoration: underline;
+  background-color: rgb(176, 85, 255);
+}
+
+.button__page:active {
+  text-decoration: underline;
+  background-color: #b8a7fe;
+}

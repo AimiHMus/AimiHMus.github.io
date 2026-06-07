@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/buttonprevious.css">
+    <style>
+        .layout {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin: 10px 0px 40px 0px;
+
+        }
+        .container__myinfo {
+            background-color: #9787de;
+            color: black;
+            border: none;
+            border-radius: 30px;
+            padding: 20px;
+            width: 50%;
+            min-height: 50%;
+
+            margin: 0;
+
+            display: flex;
+            align-items: center;
+            gap: 20px;    
+        }
+
+        .myinfo__imgaimi img {
+            width: 300px;
+            border-radius: 150px;
+            object-fit: cover;
+        }
+
+        .myinfo__table {
+            padding: 10px;
+        }
+
+        td {
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>AIMI'S PROFILE</h1>
+        <nav class="navbar">
+            <ul class="navbar__ul">
+                <li><a href="../index.html">HOMEPAGE</a></li>
+                <li><a href="../aboutme.html">ABOUT ME</a></li>
+                <li><a href="../education.html">EDUCATION</a></li>
+                <li><a href="../skill.html">SKILLS</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section__myinfo">
+        <!-- button to about me -->
+        <div class="button">
+            <a href="../aboutme.html" class="button__page">PREVIOUS PAGE</a>
+        </div>
+        
+        <div class="layout">
+
+            <!-- image of aimi -->  
+            <div class="myinfo__imgaimi">
+                <img src="../images/aimi-raya.jpeg" alt="Aimi Hamizah">
+            </div>
+
+            <!-- personal information -->
+            <div class="container__myinfo">
+
+                <div class="myinfo__text">
+                    <h2>LEARN ABOUT AIMI</h2>
+                    <table class="myinfo__table">
+                        <tr>
+                            <td>Full Name</td>
+                            <td>Aimi Hamizah Binti Mohd Ahudivi @ Mustafa</td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td>20 years old</td>
+                        </tr>
+                        <tr>
+                            <td>Date of Birth</td>
+                            <td>10 September 2006</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>5862, Jln Tualang 7, Bandar Putra, 81000, Kulai, Johor</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <br>
+                        <p>Student Identification:</p>
+                        <table class="myinfo__table">
+                            <tr>
+                                <td>Student ID</td>
+                                <td>2025215588</td>
+                            </tr>
+                            <tr>
+                                <td>Group</td>
+                                <td>N5SI2602A</td>
+                            </tr>
+                            <tr>
+                                <td>Course Code</td>
+                                <td>IML 470</td>
+                            </tr>
+                            <tr>
+                                <td>Course Name</td>
+                                <td>Introduction to Web Development and Library Portal</td>
+                            </tr>
+                            <tr>
+                                <td>Programme</td>
+                                <td>Bachelor of Information Science (HONS) Library Management</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            &copy; 2026 Aimi Hamizah. All rights reserved.<br>
+            Disclaimer: This website is created for educational purposes only.
+    </footer>
+    
+</body>
+</html>
