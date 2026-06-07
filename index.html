@@ -76,10 +76,17 @@
                 <button class="button__enter" onclick="myFunction()">
                     ENTER!
                 </button>
-            
-                <script> 
+        
+                <script>
                     function myFunction() {
-                        alert ("For the best experience and full features, please view this website on your laptop or desktop computer. location.href= "content.html");
+                        let proceed = confirm(
+                        "For the best experience and full features, please view this website on your laptop or desktop computer.
+                            \n\n Continue?"
+                        );
+
+                    if (proceed) {
+                    location.href = "content.html";
+                    }
                     }
                 </script>
             </div>
